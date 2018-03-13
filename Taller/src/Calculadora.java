@@ -19,14 +19,13 @@ public class Calculadora {
 			System.out.println("La operacion no existe");
 			 angel = true;
 		}
-       if (angel = true){
+
 		System.out.println("Escribe el primer numero");
 		numero1 = leer.nextInt();
 
 		System.out.println("Escribe el segundo numero");
 		numero2 = leer.nextInt();
-       
-       
+
 		if (opcion.equals("+")) {
 			resultado = (numero1 + numero2);
 			System.out.println("Resultado de la suma: " + (resultado));
@@ -51,5 +50,5 @@ public class Calculadora {
 		}
 
 	}
-	}
+
 }
