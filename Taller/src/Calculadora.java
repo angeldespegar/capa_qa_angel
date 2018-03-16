@@ -7,7 +7,6 @@ public class Calculadora {
 		String opcion;
 		int numero1;
 		int numero2;
-		Boolean angel;
 		double resultado;
 
 		System.out.println("Elije la operacion que desea realizar:");
@@ -15,11 +14,7 @@ public class Calculadora {
 
 		opcion = leer.next();
 
-		if ((opcion != "+") && (opcion != "-") && (opcion != "*") && (opcion != "/")) {
-			System.out.println("La operacion no existe");
-			 angel = true;
-		}
-
+		
 		System.out.println("Escribe el primer numero");
 		numero1 = leer.nextInt();
 
@@ -50,5 +45,7 @@ public class Calculadora {
 		}
 
 	}
+	
+
 
 }
