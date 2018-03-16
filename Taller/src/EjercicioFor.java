@@ -35,6 +35,22 @@ public class EjercicioFor {
 
 		}
 		
+		for(int i = 0; i < lista.size() ; i++){
+			System.out.println("El numero es: " + lista.get(i));
+		}
+		
+		Iterator iterador = lista.iterator();
+		while (iterador.hasNext()){
+			int numero = Integer.parseInt(iterador.next().toString());
+			System.out.println("El numero usando iterator es : " + numero);
+			
+		}
+		
+		for(int numero : lista){
+			System.out.println("El numero usando foreach es: " + numero);
+		}
+		
+		
 	}
 
 }
