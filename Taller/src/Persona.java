@@ -1,4 +1,3 @@
-
 public class Persona {
 
 	private final int YEAR = 2018;
@@ -24,6 +23,10 @@ public class Persona {
 		this.sexo = sexo;
 		this.peso = peso;
 		this.altura = altura;
+		
+	}
+	
+	public Persona(){
 		
 	}
 
@@ -94,7 +97,7 @@ public class Persona {
 		return peso;
 	}
 
-	public void setPeso(Float peso) {
+	public void setPeso(Double peso) {
 		this.peso = peso;
 	}
 
@@ -102,7 +105,7 @@ public class Persona {
 		return altura;
 	}
 
-	public void setAltura(Float altura) {
+	public void setAltura(Double altura) {
 		this.altura = altura;
 	}
 	
